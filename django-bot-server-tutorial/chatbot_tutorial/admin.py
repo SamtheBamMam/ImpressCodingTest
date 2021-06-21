@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from api.models import ButtonCall
+from chatbot_tutorial.models import ButtonCall
 
 
 class ButtonCallAdmin(admin.ModelAdmin):

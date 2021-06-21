@@ -8,7 +8,7 @@ from django.http.response import HttpResponse
 from django.shortcuts import render
 from django.db.models import F
 
-from api.models import ButtonCall
+from chatbot_tutorial.models import ButtonCall
 
 
 def chat(request):
